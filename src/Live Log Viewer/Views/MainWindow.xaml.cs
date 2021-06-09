@@ -79,5 +79,12 @@ namespace LiveLogViewer.Views
         {
             new ConfigurationWindow { Owner = this }.ShowDialog();
         }
+
+        
+
+        private void TopMostButton_Click(object sender, RoutedEventArgs e)
+        {
+            Topmost = !Topmost;
+        }
     }
 }
